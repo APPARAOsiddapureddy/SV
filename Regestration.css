@@ -1,0 +1,64 @@
+body{
+    background-image: url('4.jpg');
+    background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+}
+.main{
+    display: flex;
+}
+.quote{
+font-size: 20px;
+position: relative;
+top: 280px;
+left: 2%;
+height: fit-content;
+}
+.quote p{
+    margin-left: 350px;
+}
+.container{ 
+    height: 600px;
+    width: 400px;
+    /* padding: 0px 20px 0px 20px; */
+    margin: auto;
+    margin-left: 400px;
+    margin-top: 70px;
+}
+.demo1{
+    font-size:xxx-large;
+    font-family:'Adobe jeson';
+    font-weight: bold;
+    margin: auto;
+    margin-top: 0px;
+    color:#4D455D;
+}
+a{
+    color:black;
+    font-size: large;
+}
+input{
+    width: 89%;
+    height: 30px;
+}
+
+.input1{
+    width: 10%;
+    height: 15px;
+}
+
+.checkbox{
+    font-size: medium;
+    margin: auto;
+    margin-top: 13px;
+}
+
+.demo2{
+font-size: x-large;
+}
+
+.submit{
+margin: auto;
+margin-top: 10%;
+font-size:large;
+}

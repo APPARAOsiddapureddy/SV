@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgba(71, 71, 100, 0.8),rgba(0,0,50,0.8)),url(1.jpg);
+    background: linear-gradient((#000050),(#ffffff));
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+hr{
+    margin: auto;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+.container{
+    background-color:rgb(255, 255, 255);
+    width: 380px;
+    height: 480px;
+    /*margin: auto;
+    margin-left: 10%;
+    margin-top: 25%;
+    */position: relative;
+    top: 125px;
+    left: 15%;
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+    
+}
+
+.demo1{
+    font-size: 30px;
+    /* margin:auto ;
+    margin-top: 15px;
+    margin-bottom: 15px; */
+    padding: auto;
+    padding-top: 10px;
+    background-color: antiquewhite;
+    height: 75px;
+}
+.demo1 hr{
+    margin: auto;
+    margin-bottom: 15px;
+}
+.demo2{
+    font-size: large;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #ffffff;
+}
+.demo2 h2{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.demo2 p{
+    margin-bottom: 21px;
+}
+label{
+    font-size: xx-large;
+}
+
+.username{
+    height: 45px;
+    width: 75%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-bottom: 28px;
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+}
+.password{
+    height: 45px;
+    width: 75%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 15px;
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+}
+.forgotpassword{
+    color: blue;
+    font-size:medium;
+    position: relative;
+    top: 25px;
+    left: 35px;
+}
+.submit{
+    height: 38px;
+    width: 50%;
+    margin: auto;
+    margin-top: 35px;
+}
+.forsignup p{
+    text-align: center;
+    margin-top: 25px;
+}
+.forsignup p a{
+    margin-left: 15px;
+}
