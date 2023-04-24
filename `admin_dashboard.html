@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Admin Dashboard - Travel Website</title>
+	<style>
+		/* General styles */
+		* {
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+
+		body {
+			font-family: Arial, sans-serif;
+			font-size: 16px;
+			line-height: 1.5;
+		}
+
+		.container {
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 1rem;
+		}
+
+		h1, h2, h3 {
+			text-align: center;
+			margin-bottom: 1rem;
+		}
+
+		h1 {
+			font-size: 2.5rem;
+		}
+
+		h2 {
+			font-size: 2rem;
+		}
+
+		h3 {
+			font-size: 1.5rem;
+		}
+
+		p {
+			margin-bottom: 1rem;
+		}
+
+		section {
+			margin-bottom: 2rem;
+		}
+
+		table {
+			border-collapse: collapse;
+			width: 100%;
+		}
+
+		th, td {
+			padding: 0.5rem;
+			text-align: center;
+			border: 1px solid #ccc;
+		}
+
+		th {
+			background-color: #f2f2f2;
+		}
+
+		/* Styles for the statistics section */
+		.stat-card {
+			display: flex;
+			align-items: center;
+			margin-bottom: 1rem;
+			padding: 1rem;
+			background-color: #f2f2f2;
+			width: 25%;
+			display: flex;
+		}
+
+		.card-info {
+			flex-grow: 1;
+		}
+
+		.card-icon {
+			width: 80px;
+			height: 80px;
+			margin-left: 1rem;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-color: #fff;
+			border-radius: 50%;
+			box-shadow: 0 0 5px #ccc;
+		}
+
+		.card-icon img {
+			max-width: 50px;
+			max-height: 50px;
+		}
+
+		/* Responsive styles */
+		@media screen and (max-width: 768px) {
+			h1 {
+				font-size: 2rem;
+			}
+
+			h2 {
+				font-size: 1.5rem;
+			}
+
+			h3 {
+				font-size: 1.25rem;
+			}
+
+			.stat-card {
+				flex-wrap: wrap;
+			}
+
+			.card-info {
+				margin-bottom: 1rem;
+			}
+
+			.card-icon {
+				margin-left: 0;
+				margin-top: 1rem;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<h1>Admin Dashboard</h1>
+		</header>
+		<h2>Statistics</h2>
+		<section style="display: flex;">
+			<div class="stat-card" style="margin: 10px;">
+				<div class="card-info">
+					<h3>Number of Customers</h3>
+					<p>200</p>
+				</div>
+				<div class="card-icon">
+					<img src="https://img.icons8.com/wired/64/000000/user-male-circle.png"/>
+				</div>
+			</div>
+		
+			<div class="stat-card" style="margin: 10px;">
+				<div class="card-info">
+					<h3>Number of Hotels</h3>
+					<p>50</p>
+				</div>
+				<div class="card-icon">
+					<img src="https://img.icons8.com/ios/50/000000/hotel-bed.png"/>
+				</div>
+			</div>
+			<div class="stat-card" style="margin: 10px;">
+				<div class="card-info">
+					<h3>Number of Guides</h3>
+					<p>30</p>
+				</div>
+				<div class="card-icon">
+					<img src="https://img.icons8.com/ios/50/000000/guide-dog.png"/>
+				</div>
+			</div>
+			<div class="stat-card" style="margin: 10px;">
+				<div class="card-info">
+					<h3>Number of Travel Agencies Joined</h3>
+					<p>10</p>
+				</div>
+				<div class="card-icon">
+					<img src="https://img.icons8.com/material-rounded/50/000000/travel-agency.png"/>
+				</div>
+			</div>
+		</section>
+		<section>
+			<h2>Manage Bookings</h2>
+			<table>
+				<thead>
+					<tr>
+						<th>Booking ID</th>
+						<th>Customer Name</th>
+						<th>Destination</th>
+						<th>Travel Date</th>
+						<th>Status</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>001</td>
+						<td>John Doe</td>
+						<td>Paris, France</td>
+						<td>2023-05-15</td>
+							<td><span style="color: green;">Confirmed</span></td>
+					</tr>
+					<tr>
+						<td>002</td>
+						<td>Jane Smith</td>
+						<td>Barcelona, Spain</td>
+						<td>2023-06-01</td>
+							<td><span style="color: red;">Cancelled</span></td>
+					</tr>
+					<tr>
+						<td>003</td>
+						<td>Bob Johnson</td>
+						<td>Rome, Italy</td>
+						<td>2023-07-10</td>
+							<td><span style="color: orange;">Pending</span></td>
+					</tr>
+					<tr>
+						<td>004</td>
+						<td>Sarah Lee</td>
+						<td>Tokyo, Japan</td>
+						<td>2023-08-15</td>
+							<td><span style="color: green;">Confirmed</span></td>
+					</tr>
+					<tr>
+						<td>005</td>
+						<td>Tom Wilson</td>
+						<td>Sydney, Australia</td>
+						<td>2023-09-01</td>
+							<td><span style="color: orange;">Pending</span></td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+	</div>
+</body>
+</html>

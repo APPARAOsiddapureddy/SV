@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Plan Your Tour</title>
+	<link rel="stylesheet" type="text/css" href="booking.css">
+</head>
+<body>
+
+    <div class="forsearch">
+        <h1>Select Your Travel Date</h1>
+        <form action="">
+            <input type="date">
+        </form>
+    </div>
+	<main>
+		<section class="selection-box">
+			<h2>Select a Guide</h2>
+			<form>
+				<div class="radio-group">
+					<label>
+						<input type="radio" name="guide" value="guide-a">
+						Guide A
+					</label>
+				</div>
+				<div class="radio-group">
+					<label>
+						<input type="radio" name="guide" value="guide-b">
+						Guide B
+					</label>
+				</div>
+				<div class="radio-group">
+					<label>
+						<input type="radio" name="guide" value="guide-c">
+						Guide C
+					</label>
+				</div>
+				<!-- Add more guide options here -->
+			</form>
+		</section>
+		<section class="selection-box">
+			<h2>Select a Travel Agency</h2>
+			<form>
+				<div class="radio-group">
+					<label>
+						<input type="radio" name="agency" value="agency-a">
+						Travel Agency A
+					</label>
+				</div>
+				
+				<div class="radio-group">
+					<label>
+						<input type="radio" name="agency" value="agency-b">
+						Travel Agency B
+					</label>
+				</div>
+				<div class="radio-group">
+					<label>
+						<input type="radio" name="agency" value="agency-c">
+						Travel Agency C
+					</label>
+				</div>
+				<!-- Add more travel agency options here -->
+			</form>
+		</section>
+		<section class="selection-box">
+			<h2>Select a Hotel</h2>
+			<form>
+				<div class="radio-group">
+					<label>
+						<input type="radio" name="hotel" value="hotel-a">
+						Hotel A
+					</label>
+				</div>
+				<div class="radio-group">
+					<label>
+						<input type="radio" name="hotel" value="hotel-b">
+						Hotel B
+					</label>
+				</div>
+				<div class="radio-group">
+					<label>
+						<input type="radio" name="hotel" value="hotel-c">
+						Hotel C
+					</label>
+				</div>
+				<!-- Add more hotel options here -->
+			</form>
+		</section>
+	</main>
+    <div class="upi">
+            <form action="" class="forpayment">
+                <div class="upipayment">
+                    <label class="payments">
+						<input type="radio" name="hotel" value="hotel-c">
+						UPI method
+					</label>
+                    <label for="upi" class="upiid"><h3><span>Enter Your UPI Id :</span><input type="text"></h3></label>
+                </div>
+                <div class="upipayment">
+                    <label class="payments">
+						<input type="radio" name="hotel" value="hotel-c">
+						QR code
+					</label>
+                    <img src="upi.jpg" alt="qr code" class="qrcode">
+                </div>
+            </form>
+            <input type="submit" class="pay" value="Pay now" class="paynow">
+    </div>
+
+	<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+* {
+	font-family: Arial, sans-serif;
+	color: #333;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+    background-color: rgb(247, 247, 247);
+}
+.logout{
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 80%;
+    height: 70px;
+}
+.welcome{
+    height: 60px;
+    width: 600px;
+    display: flex;
+    margin: auto;
+    margin-top: 60px;
+    margin-left: 250px;
+    border: 1px solid rgb(128, 128, 128);
+    box-shadow: 3px 6px wheat;
+	border-radius: 10px;
+}
+.welocme_left{
+    background-color: yellow;
+    width: 5px;
+}
+.welcome_right{
+margin: auto;
+margin: 15px 0px 10px 50px;
+}
+.welcome_right span{
+    margin: auto;
+    margin-left: 30px;
+}
+.content{
+    height: 400px;
+    width: 500px;
+    margin: auto;
+    margin: 40px 0px 10px 450px; 
+    border: 1px solid rgb(128, 128, 128);
+}
+.content img{
+    height: 120px;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 180px;
+}
+.content h3{
+    margin: auto;
+    margin-left: 60px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.content h3 span{
+    margin: auto;
+    margin-left: 100px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.info{
+    display: flex;
+}
+.content_left{
+    margin: auto;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+.content_left h2{
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header h1 {
+	font-size: 36px;
+	font-weight: bold;
+}
+.header a {
+	color: #333;
+	text-decoration: none;
+	font-size: 20px;
+}
+.card {
+	flex-basis: calc(20% - 6px);
+    height: 300px;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	border-radius: 5px;
+	padding: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.card h2 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.card p {
+	font-size: 36px;
+	font-weight: bold;
+	color: #333;
+}
+.content1 {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 50px;
+}
+.content1 .card p{
+    margin: auto;
+    margin-top: 10px;
+    margin-left: ;
+}
